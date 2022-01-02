@@ -1,0 +1,173 @@
+.entire
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: Sans-serif;
+}
+
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.entire header
+{
+    text-align: right;
+}
+
+.entire header ul
+{
+    margin: 19px;
+}
+
+.entire header li
+{
+    display: inline;
+}
+
+.entire header a
+{
+    display: inline-block;
+    color: rgb(41, 38, 38);
+    padding: 0 0.5em;
+    text-decoration: none;
+    font-size: 0.83em;
+}
+
+.entire header a:hover
+{
+    text-decoration: underline;
+}
+
+.entire .google-logo
+{
+    text-align: center;
+    margin: 96px 0 0 0;
+}
+
+.entire .logo-text
+{
+    color: #4285f4;
+    font: 16px/16px sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+.entire .search-tab
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.entire .search-tab .hlol
+{    
+    width: 21em;
+    padding: 13px;    
+    border-radius: 30px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+.entire .search-tab ul li
+{
+    display: inline-block;
+    padding: 0 15px;
+    
+}
+
+.entire .search-tab ul li input,button
+{
+    border: none;
+    background-color: rgba(248, 242, 242, 0.342);
+    padding: 10px;
+    
+}
+
+.entire .search-tab ul li button a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.entire .search-tab ul li input:hover
+{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5.9%;
+}
+
+.entire .search-tab ul li button:hover
+{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5.9%;
+}
+
+.entire .search-tab .languages
+{
+    margin-top: 10px;    
+}
+
+.entire .search-tab .languages li
+{
+    list-style: none;
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+.entire .search-tab .languages li a
+{
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.entire .search-tab .languages li a:hover
+{
+    text-decoration: underline;
+}
+
+.entire footer
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.entire footer .row
+{
+    padding: 10px 25px;
+    font-size: 14px;
+    color: #5f6368;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.entire footer .row.row2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.entire footer .row.row2 ul
+{
+    display: flex;
+}
+
+.entire footer .row.row2 ul li
+{
+    list-style: none;
+}
+
+.entire footer .row.row2 ul li a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 25px;
+}
